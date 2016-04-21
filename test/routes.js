@@ -10,6 +10,6 @@ describe('GET /', function() {
 	it('responds with a nice message', function(done) {
 		request(app)
 			.get('/')
-			.expect('Hello World!', done)
+			.expect('Hello World2!', done)
 	});
 });
