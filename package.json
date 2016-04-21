@@ -1,0 +1,23 @@
+{
+  "name": "eb-nodejs-test",
+  "version": "1.0.0",
+  "description": "Example application to test Elastic Beanstalk",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+		"start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothyhalford/eb-nodejs-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timothyhalford/eb-nodejs-test/issues"
+  },
+  "homepage": "https://github.com/timothyhalford/eb-nodejs-test#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
